@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*Documento CSS*/
+
+
+
+.logotipo{
+    width: 60px;
+    height: 60px;
+}
+.iconosRedesHeader{
+    width: 35px; 
+    height: 35px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    
+}
