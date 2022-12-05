@@ -10,20 +10,18 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <!--Mi CSS-->   <!-- por alguna razon no me dectecta el .css si esta dentro de la carpeta styles <link rel="stylesheet" href="./styles/styles.css"/>-->
-    <link rel="stylesheet" href="/styles.css"/>
+    <!--Mi CSS-->
+    <!-- por alguna razon no me dectecta el .css si esta dentro de la carpeta styles <link rel="stylesheet" href="./styles/styles.css"/>-->
+    <link rel="stylesheet" href="/styles.css" />
 
     <title>Mi Portfolio web</title>
-
-
-
   </head>
-  <body>
+  <body class="cuerpoPagina">
     <!--Menu de bootstrap-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-            <img class="logotipo" src="images/logotipo.png" alt="logotipo"   >
+          <img class="logotipo" src="images/logotipo.png" alt="logotipo" />
         </a>
         <button
           class="navbar-toggler"
@@ -42,35 +40,52 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Proyectos</a>
+              <a class="nav-link" href="#">Projects</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Mi vision</a>
-              </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">Hobbys</a>
+              <a class="nav-link" href="#">Who I am?</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li>
+              <a class="nav-link" href="#">Contact</a>
+            </li>
           </ul>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.instagram.com/matias_rogante/">
-                <img class="iconosRedesHeader" src="/images/logoInstagram.png" class="rounded float-end " alt="logoInstragram">
+            <a
+              class="nav-link"
+              href="https://www.instagram.com/matias_rogante/"
+            >
+              <img
+                class="iconosRedesHeader"
+                src="/images/logoInstagram.png"
+                class="rounded float-end"
+                alt="logoInstragram"
+              />
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-                <img class="iconosRedesHeader" src="/images/logoWhatsapp.png" class="rounded float-end" alt="logoWhatsapp">
+              <img
+                class="iconosRedesHeader"
+                src="/images/logoWhatsapp.png"
+                class="rounded float-end"
+                alt="logoWhatsapp"
+              />
             </a>
           </li>
-          
         </div>
       </div>
     </nav>
+    <div class="bg home"></div>
+    <div class="bg-text container">
+      <h1>Prueba</h1>
+    </div>
+    <footer class="pieDePagina">
+      <div class="container">
+        <p>&copy; Portfolio Matias Rogante 2022</p>
+      </div>
+    </footer>
 
     <!--JS bundlee (con popper)-->
     <script
