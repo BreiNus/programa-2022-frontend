@@ -9,7 +9,7 @@
 /*estilos para el body*/
 .cuerpoPagina {
     margin:0;
-    background: lightslategray;
+    background: rgb(172, 183, 194);
 }
 
 /*estilos para el footer*/
@@ -55,9 +55,45 @@ filter: blur(3px);
     width: 80%;
     padding: 20px;
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /*estilos para el home*/
 .home{
     background-image: url("./images/imgBg.jpg");
+}
+
+.contact{
+    background-image: url("./images/imgBgContact.jpg");
+}
+
+/*Esta dentro de <section>*/
+.seccion-custom{
+    padding-top: 50px;
+}
+
+/*clase dentro de card (class card = cc)*/
+.cc{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column; 
+}
+
+/*Fuente del texto de las Card*/
+.card-text{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.txt-contact{
+    color: var(--main-color);
+    position:absolute;;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
 }
